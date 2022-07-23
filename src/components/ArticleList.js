@@ -4,7 +4,6 @@ import blogData from "../data/blog";
 
 function ArticleList(){
 
-  console.log(blogData.posts)
   return (
     <main>
       {blogData.posts.map((post) => {
